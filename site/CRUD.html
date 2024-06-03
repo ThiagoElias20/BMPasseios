@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <!-- Site Title-->
+    <title>BM Passeios</title>
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/logo-default-208x46.png" type="image/x-icon" />
+    <!-- Stylesheets -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900"
+    />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!--[if lt IE 10]>
+      <div
+        style="
+          background: #212121;
+          padding: 10px 0;
+          box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+          clear: both;
+          text-align: center;
+          position: relative;
+          z-index: 1;
+        "
+      >
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/"
+          ><img
+            src="images/ie8-panel/warning_bar_0000_us.jpg"
+            border="0"
+            height="42"
+            width="820"
+            alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."
+        /></a>
+      </div>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Page preloader-->
+    <div class="page-loader">
+      <div class="page-loader-body">
+        <div class="preloader-wrapper big active">
+          <div class="spinner-layer spinner-blue">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="spinner-layer spinner-red">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="spinner-layer spinner-yellow">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="spinner-layer spinner-green">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page-->
+    <div class="page">
+
+      <!--Botão Whatsapp flutuante-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <a href="https://api.whatsapp.com/send?phone=5585996164465&text=Quero%20agendar%20um%20passeio!" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+      z-index:1000;" target="_blank">
+      <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+      </a>
+      <!-- <a class="section section-banner text-center d-none d-xl-block" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )"><img src="images/banner/foreground-04-1600x60.png" srcset="images/banner/foreground-04-1600x60.png 1x, images/banner/foreground-04-3200x120.png 2x" alt="" width="1600" height="310"></a> -->
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap rd-navbar-corporate">
+          <nav
+            class="rd-navbar"
+            data-layout="rd-navbar-fixed"
+            data-sm-layout="rd-navbar-fixed"
+            data-md-layout="rd-navbar-fixed"
+            data-md-device-layout="rd-navbar-fixed"
+            data-lg-layout="rd-navbar-fullwidth"
+            data-xl-layout="rd-navbar-static"
+            data-lg-device-layout="rd-navbar-fixed"
+            data-xl-device-layout="rd-navbar-static"
+            data-md-stick-up-offset="130px"
+            data-lg-stick-up-offset="100px"
+            data-stick-up="true"
+            data-sm-stick-up="true"
+            data-md-stick-up="true"
+            data-lg-stick-up="true"
+            data-xl-stick-up="true"
+          >
+            <div
+              class="rd-navbar-collapse-toggle"
+              data-rd-navbar-toggle=".rd-navbar-collapse"
+            >
+              <span></span>
+            </div>
+            <!-- <div class="rd-navbar-top-panel rd-navbar-collapse novi-background">
+              <div class="rd-navbar-top-panel-inner">
+                <ul class="list-inline">
+                  <li class="box-inline list-inline-item"><span class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-phone"></span>
+                    <ul class="list-comma">
+                      <li><a href="tel:#">1-800-1234-567</a></li>
+                      <li><a href="tel:#">1-800-6780-345</a></li>
+                    </ul>
+                  </li>
+                  <li class="box-inline list-inline-item"><span class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span><a href="#">2130 Fulton Street, San Diego, CA 94117-1080 USA</a></li>
+                  <li class="box-inline list-inline-item"><span class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-email"></span><a href="mailto:#">mail@demolink.org</a></li>
+                </ul>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-facebook" href="#"></a></li>
+                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-twitter" href="#"></a></li>
+                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-instagram" href="#"></a></li>
+                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-google-plus" href="#"></a></li>
+                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-linkedin" href="#"></a></li>
+                </ul>
+              </div>
+              <div class="rd-navbar-top-panel-inner"><a class="button button-sm button-secondary button-nina" href="https://www.templatemonster.com/website-templates/62466.html" target="_blank">buy template now</a></div>
+            </div> -->
+            <div class="rd-navbar-inner">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button
+                  class="rd-navbar-toggle"
+                  data-rd-navbar-toggle=".rd-navbar-nav-wrap"
+                >
+                  <span></span>
+                </button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand">
+                  <a class="brand-name" href="index.html"
+                    ><img
+                      class="logo-default"
+                      src="images/logo-default-208x46.png"
+                      alt=""
+                      width="104"
+                      height="46" /><img
+                      class="logo-inverse"
+                      src="images/logo-inverse-208x46.png"
+                      alt=""
+                      width="208"
+                      height="46"
+                  /></a>
+                </div>
+              </div>
+              <div class="rd-navbar-aside-center">
+                <div class="rd-navbar-nav-wrap">
+                  <!-- RD Navbar Nav-->
+                  <ul class="rd-navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">Sobre</a></li>
+                    <li><a href="contacts.html">Contato</a></li>
+                    <!-- <li><a href="typography.html">Typography</a>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="rd-navbar-aside-right">
+                <a
+                  class="button button-sm button-secondary button-nina"
+                  href="#"
+                  >Agende um passeio</a
+                >
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      
+
+
+      
+
+          <div class="container-xl">
+            <div class="table-responsive">
+              <div class="table-wrapper">
+                <div class="table-title">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <h2><b>Agendamento de passeio</b></h2>
+                    </div>
+                    <div class="col-sm-6">
+                      <a href="#addEmployeeModal" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Adicionar Passeio</span></a>
+                      <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="material-icons">&#xE15C;</i> <span>Deletar</span></a>						
+                    </div>
+                  </div>
+                </div>
+                <table class="table table-striped table-hover">
+                  <thead>
+                    <tr>
+                      <th>
+                        <span class="custom-checkbox">
+                          <input type="checkbox" id="selectAll">
+                          <label for="selectAll"></label>
+                        </span>
+                      </th>
+                      <th>ID</th>
+                      <th>Nome</th>
+                      <th>Email</th>
+                      <th>Número celular</th>
+                      <th>Data escolhida</th>
+                      <th>Tipo de passeio</th>
+                      <th>Adultos</th>
+                      <th>Crianças</th>
+                      <th>Ações</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span class="custom-checkbox">
+                          <input type="checkbox" id="checkbox1" name="options[]" value="1">
+                          <label for="checkbox1"></label>
+                        </span>
+                      </td>
+                      <td>#5</td>
+                      <td>Thomas Hardy</td>
+                      <td>thomashardy@mail.com</td>
+                      <td>(85) 99999-9999</td>
+                      <td>09/04/2024</td>
+                      <td>Convencional</td>
+                      <td>2</td>
+                      <td>1</td>
+                      <td>
+                        <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                        <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                        <a href="#editEmployeeModal" class="check" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Finalizar passeio">&#xE5CA;</i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span class="custom-checkbox">
+                          <input type="checkbox" id="checkbox2" name="options[]" value="2">
+                          <label for="checkbox2"></label>
+                        </span>
+                      </td>
+                      <td>#4</td>
+                      <td>Dominique Perrier</td>
+                      <td>dominiqueperrier@mail.com</td>
+                      <td>(85) 99999-9999</td>
+                      <td>08/04/2024</td>
+                      <td>Personalizado</td>
+                      <td>1</td>
+                      <td>0</td>
+                      <td>
+                        <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                        <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                        <a href="#editEmployeeModal" class="check" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Finalizar passeio">&#xE5CA;</i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span class="custom-checkbox">
+                          <input type="checkbox" id="checkbox3" name="options[]" value="3">
+                          <label for="checkbox3"></label>
+                        </span>
+                      </td>
+                      <td>#3</td>
+                      <td>Maria Anders</td>
+                      <td>mariaanders@mail.com</td>
+                      <td>(85) 99999-9999</td>
+                      <td>01/04/2024</td>
+                      <td>Convencional</td>
+                      <td>1</td>
+                      <td>0</td>
+                      <td>
+                        <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                        <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                        <a href="#editEmployeeModal" class="check" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Finalizar passeio">&#xE5CA;</i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span class="custom-checkbox">
+                          <input type="checkbox" id="checkbox4" name="options[]" value="4">
+                          <label for="checkbox4"></label>
+                        </span>
+                      </td>
+                      <td>#2</td>
+                      <td>Fran Wilson</td>
+                      <td>franwilson@mail.com</td>
+                      <td>(85) 99999-9999</td>
+                      <td>26/03/2024</td>
+                      <td>Por do sol</td>
+                      <td>1</td>
+                      <td>0</td>
+                      <td>
+                        <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                        <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                        <a href="#editEmployeeModal" class="check" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Finalizar passeio">&#xE5CA;</i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <span class="custom-checkbox">
+                          <input type="checkbox" id="checkbox5" name="options[]" value="5">
+                          <label for="checkbox5"></label>
+                        </span>
+                      </td>
+                      <td>#1</td>
+                      <td>Martin Blank</td>
+                      <td>martinblank@mail.com</td>
+                      <td>(85) 99999-9999</td>
+                      <td>21/03/2024</td>
+                      <td>Convencional</td>
+                      <td>1</td>
+                      <td>0</td>
+                      <td>
+                        <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                        <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                        <a href="#editEmployeeModal" class="check" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Finalizar passeio">&#xE5CA;</i></a>
+                      </td>
+                    </tr> 
+                  </tbody>
+                </table>
+
+
+                
+                <div class="clearfix">
+                  <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
+                  <ul class="pagination">
+                    <li class="page-item disabled"><a href="#">Previous</a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item active"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">4</a></li>
+                    <li class="page-item"><a href="#" class="page-link">5</a></li>
+                    <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>        
+          </div>
+          <!-- Edit Modal HTML -->
+          <div id="addEmployeeModal" class="modal fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <form>
+                  <div class="modal-header">						
+                    <h4 class="modal-title">Adicionar Passeio</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal-body">					
+                    <div class="form-group">
+                      <label>Name</label>
+                      <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Email</label>
+                      <input type="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Address</label>
+                      <textarea class="form-control" required></textarea>
+                    </div>
+                    <div class="form-group">
+                      <label>Phone</label>
+                      <input type="text" class="form-control" required>
+                    </div>					
+                  </div>
+                  <div class="modal-footer">
+                    <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                    <input type="submit" class="btn btn-success" value="Add">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- Edit Modal HTML -->
+          <div id="editEmployeeModal" class="modal fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <form>
+                  <div class="modal-header">						
+                    <h4 class="modal-title">Editar Passeio</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal-body">					
+                    <div class="form-group">
+                      <label>Name</label>
+                      <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Email</label>
+                      <input type="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                      <label>Address</label>
+                      <textarea class="form-control" required></textarea>
+                    </div>
+                    <div class="form-group">
+                      <label>Phone</label>
+                      <input type="text" class="form-control" required>
+                    </div>					
+                  </div>
+                  <div class="modal-footer">
+                    <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                    <input type="submit" class="btn btn-info" value="Save">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- Delete Modal HTML -->
+          <div id="deleteEmployeeModal" class="modal fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <form>
+                  <div class="modal-header">						
+                    <h4 class="modal-title">Delete Employee</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  </div>
+                  <div class="modal-body">					
+                    <p>Are you sure you want to delete these Records?</p>
+                    <p class="text-warning"><small>This action cannot be undone.</small></p>
+                  </div>
+                  <div class="modal-footer">
+                    <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                    <input type="submit" class="btn btn-danger" value="Delete">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+      <!-- <section class="section section-md text-center text-md-left bg-gray-700 novi-background bg-cover">
+        <div class="container container-wide">
+          <div class="row row-fix row-50 justify-content-sm-center">
+            <div class="col-xxl-8">
+              <div class="box-cta box-cta-inline">
+                <div class="box-cta-inner">
+                  <h3 class="box-cta-title">Buy a tour without leaving your home</h3>
+                  <p>Using our website, you can book any tour just in a couple of clicks.</p>
+                </div>
+                <div class="box-cta-inner"><a class="button button-secondary button-nina" href="#">Book Now</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a> -->
+
+      <!-- Footer Minimal-->
+      <footer
+        class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker"
+      >
+        <div class="container container-wide">
+          <div
+            class="row row-fix justify-content-sm-center align-items-md-center row-30"
+          >
+            <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left">
+              <a href="index.html"
+                ><img
+                  class="inverse-logo"
+                  src="images/logo-default-208x46.png"
+                  alt=""
+                  width="208"
+                  height="46"
+              /></a>
+            </div>
+            <div class="col-md-10 col-lg-7 col-xl-4">
+              <p class="right">
+                &#169;&nbsp;<span class="copyright-year"></span> Todos os
+                direitos reservados Beira Mar Passeios
+              </p>
+            </div>
+            <div class="col-md-10 col-lg-7 col-xl-4 text-xl-right">
+              <ul class="group-xs group-middle"> 
+                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-facebook" href="https://www.facebook.com/bmpasseios/"></a></li>
+                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-instagram" href="https://www.instagram.com/bmpasseios/"></a></li>
+                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-google" href="https://g.co/kgs/nqqt3Ht"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="js/core.min.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/script.js"></script>
+    <!-- coded by barber-->
+  </body>
+</html>
